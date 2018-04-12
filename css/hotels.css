@@ -8,6 +8,8 @@ body {
 body {
     overflow: scroll;
     background-color: slategrey;
+    font-family: "Roboto", sans-serif, Helvetica, Arial;
+    margin: 0;
 }
 
 h1 {
@@ -18,6 +20,7 @@ h1 {
     min-height: 950px;
     background: url(../img/background.jpg)no-repeat -93px 0px;
     background-size: cover;
+    position: relative;
 }
 
 .menu {
@@ -25,6 +28,7 @@ h1 {
     list-style-type: none;
     overflow: hidden;
     padding: 0;
+    position: relative;
 }
 
 .menu-item-left {
@@ -54,13 +58,13 @@ h1 {
 .section-setting {
     float: right;
     position: relative;
-    padding-left: 60px;
+    padding: 5px;
 }
 
 .section-top {
     float: left;
     overflow: hidden;
-    padding: 30px 30px;
+    padding: 15px;
 }
 
 .section-top:hover {
@@ -110,7 +114,7 @@ h1 {
 }
 
 .about-hotels {
-    padding: 0;
+    padding: 0px;
 }
 
 
