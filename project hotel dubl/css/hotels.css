@@ -1,0 +1,78 @@
+.photo {
+    min-width: 345px;
+    max-width: 345px;
+    min-height: 210px;
+    max-height: 210px;
+    border-radius: 6px;
+}
+
+.photoinfo-left {
+    float: left;
+    min-width: 485px;
+    min-height: 310px;
+    max-width: 485px;
+    max-height: 310px;
+}
+
+.description {
+    background-color: white;
+    position: relative;
+    float: left;
+}
+
+.images {
+    background-color: white;
+}
+
+.about-right {
+    float: right;
+}
+
+.about-left {
+    float: left;
+}
+
+.photoinfo-right {
+    float: right;
+    min-width: 485px;
+    min-height: 310px;
+    max-width: 485px;
+    max-height: 310px;
+}
+
+.about-hotels {
+    padding: 0px;
+}
+
+
+/*-- to-top --*/
+
+#toTop {
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: 24px;
+    right: 1%;
+    overflow: hidden;
+    z-index: 999;
+    width: 64px;
+    height: 64px;
+    border: none;
+    text-indent: 100%;
+    background: url("../img/arr.png") no-repeat 0px 0px;
+    background-size: 40px;
+}
+
+#toTopHover {
+    width: 64px;
+    height: 64px;
+    display: block;
+    overflow: hidden;
+    float: right;
+    opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+
+/*-- //to-top --*/
