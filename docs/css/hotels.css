@@ -1,0 +1,214 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.transition {
+    padding-top: 100px;
+}
+
+body {
+    overflow: scroll;
+    margin: 0;
+}
+
+span2 {
+    float: right;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bn {
+    min-height: 800px;
+    background: url(../img/bk.jpg)no-repeat -9px 0px;
+    background-size: cover;
+    position: relative;
+}
+
+.menu-animates {
+    position: relative;
+    animation: mymove 5s;
+}
+
+@keyframes mymove {
+    from {
+        left: -200px;
+    }
+    to {
+        left: 0px;
+    }
+}
+
+.menu {
+    margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+}
+
+.menu-item-left {
+    float: left;
+}
+
+.menu-item-right {
+    float: right;
+}
+
+.menu-ref {
+    display: block;
+    padding: 15px 25px;
+    color: black;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.menu li a {
+    text-shadow: 2px 2px 5px rgb(93, 183, 212);
+}
+
+.menu-ref span {
+    color: silver;
+}
+
+.menu-ref span1 {
+    color: red;
+}
+
+.section-setting {
+    float: right;
+    position: relative;
+    padding-top: 40px;
+    margin: 0;
+}
+
+.section-text {
+    position: absolute;
+    font-size: 3rem;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+.section-top {
+    float: left;
+    overflow: hidden;
+    padding: 5px;
+    margin: 0;
+}
+
+.section-top a img {
+    box-shadow: 2px 2px 5px black;
+}
+
+.section-top:hover {
+    opacity: .8;
+}
+
+.headtext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    padding-top: 15px;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+
+.panel img {
+    box-shadow: 2px 2px 5px black;
+}
+
+.photo {
+    min-width: 345px;
+    max-width: 345px;
+    min-height: 210px;
+    max-height: 210px;
+    border-radius: 0px;
+}
+
+.photoinfo-left {
+    float: left;
+    min-width: 485px;
+    min-height: 310px;
+    max-width: 485px;
+    max-height: 310px;
+}
+
+.description {
+    padding-top: 15px;
+}
+
+.about-right {
+    float: right;
+}
+
+.about-left {
+    float: left;
+}
+
+.photoinfo-right {
+    float: right;
+    min-width: 485px;
+    min-height: 310px;
+    max-width: 485px;
+    max-height: 310px;
+}
+
+.about-hotels {
+    padding-top: 50px;
+}
+
+
+/* .animate-section {
+    position: relative;
+    animation: mymove 3s;
+}
+
+@keyframes mymove {
+    from {
+        top: 200px;
+    }
+    to {
+        top: 0px;
+    }
+} */
+
+
+/*-- to-top --*/
+
+#toTop {
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: 24px;
+    right: 1%;
+    overflow: hidden;
+    z-index: 999;
+    width: 64px;
+    height: 64px;
+    border: none;
+    text-indent: 100%;
+    background: url("../img/arr.png") no-repeat 0px 0px;
+    background-size: 40px;
+}
+
+#toTopHover {
+    width: 64px;
+    height: 64px;
+    display: block;
+    overflow: hidden;
+    float: right;
+    opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+
+/*-- //to-top --*/
